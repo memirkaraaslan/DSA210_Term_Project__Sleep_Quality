@@ -34,8 +34,8 @@ Data is collected daily from a combination of manual tracking and Galaxy Watch m
 - **Work/Study Time**: Time spent on work, education, or study activities (in hours).
 - **Social Time**: Time spent socializing, including activities such as meeting with friends, participating in extracurricular activities (e.g., student clubs), and spending quality time with family.
 - **Sleep and Wake Times**: Daily sleep and wake-up times.
-- Some extra parameters for better insight:
-      - Weather conditions: Daily weather condition data collected from "The Weather Channel" and manuel tracking
+- Additional Parameters for Better Insights:
+      - Weather conditions: Daily weather condition data collected from "The Weather Channel" and manual tracking.
           - Temperature: Measured in degrees Celsius (°C).
           - Humidity: Recorded as a percentage (%).
           - Weather Conditions: Described as sunny, rainy, cloudy, etc.
@@ -108,6 +108,7 @@ This README will be updated regularly as the project progresses.
 ---
 
 ## Tools and Libraries
+The following tools and libraries will be utilized throughout the project as the coding and analysis phase progresses:
 - **Python**: pandas, numpy, matplotlib, seaborn, scikit-learn
 - **Jupyter Notebook**: For data exploration and analysis
 - **GitHub**: For version control and project collaboration
