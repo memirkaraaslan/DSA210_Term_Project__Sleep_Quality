@@ -36,7 +36,7 @@ Data is collected daily from a combination of manual tracking and Galaxy Watch m
 - **Sleep and Wake Times**: Daily sleep and wake-up times.
 - Additional Parameters for Better Insights:
       - Weather conditions: Daily weather condition data collected from "The Weather Channel" and manual tracking.
-          - Temperature: Measured in degrees Celsius (°C).
+          - Temperature: Average air temperature during the day measured in degrees Celsius (°C).
           - Humidity: Recorded as a percentage (%).
           - Weather Conditions: Described as sunny, rainy, cloudy, etc.
       - Body composition information: The information collected daily regarding body composition and ratios between;
@@ -66,6 +66,7 @@ Collected via Galaxy Watch:
   - Rest Rate
   - Mental Recovery Rate
   - Number of Sleep Cycles
+  - Total Sleep Score assessed by "Samsung Health"
 
 **Planned Tools for Data Logging**:
 - Manual input into a spreadsheet application (e.g., Excel or Google Sheets).
@@ -113,6 +114,33 @@ The following tools and libraries will be utilized throughout the project as the
 - **Jupyter Notebook**: For data exploration and analysis
 - **GitHub**: For version control and project collaboration
 - **Spreadsheet Software**: Excel or Google Sheets for data collection
+
+---
+
+## Sample Data
+
+### Sample Data: Daily Activity
+| Date       | Carbs (g) | Protein (g) | Fat (g) | Caffeine (mg) | Hydration (L) | Breakfast Time | Lunch Time | Dinner Time | Screen Time (hrs) | Gaming Time (hrs) | Mood       | Stress Level (1-10) | Steps  | Mental Motivation (1-10) | Work/Study Time (hrs) | Social Time (hrs) | Sleep Time | Wake Time |
+|------------|-----------|-------------|---------|---------------|---------------|----------------|------------|-------------|-------------------|--------------------|------------|---------------------|--------|---------------------------|-----------------------|-------------------|-----------|-----------|
+| 2024-01-01 | 200       | 80          | 60      | 150           | 2.0           | 08:00          | 13:00      | 19:00       | 4.0               | 1.5                | Happy      | 3                   | 8000   | 9                         | 5.0                   | 2.0               | 23:00     | 07:00     |
+| 2024-01-02 | 180       | 90          | 50      | 120           | 1.8           | 08:15          | 13:15      | 19:30       | 5.0               | 2.0                | Stressed   | 5                   | 10000  | 7                         | 4.5                   | 1.5               | 23:30     | 06:30     |
+| 2024-01-03 | 250       | 100         | 70      | 200           | 2.5           | 07:45          | 12:45      | 18:45       | 3.0               | 1.0                | Relaxed    | 2                   | 12000  | 10                        | 6.0                   | 2.5               | 22:30     | 06:00     |
+
+### Sample Data: Additional Parameters
+| Date       | Air Temperature (°C) | Humidity (%) | Weather Condition | Body Weight (kg) | Skeletal Muscle (kg) | Body Fat (%) | Body Water (%) | BMI  |
+|------------|------------------|--------------|-------------------|------------------|----------------------|--------------|----------------|------|
+| 2024-01-01 | 25.0             | 60           | Sunny             | 70.0             | 30.0                 | 18.0         | 55.0           | 24.5 |
+| 2024-01-02 | 22.0             | 55           | Cloudy            | 69.5             | 29.8                 | 17.5         | 54.5           | 24.3 |
+| 2024-01-03 | 20.0             | 65           | Rainy             | 71.0             | 31.0                 | 19.0         | 56.0           | 25.1 |
+
+
+### Sample Data: Sleep Quality Parameters
+| Date       | Sleep Time | Wake Time | Total Sleep Time (hrs) | REM Sleep (min) | Light Sleep (min) | Deep Sleep (min) | Awake Time (min) | Min O2 (%) | Max Skin Temp (°C) | Min Skin Temp (°C) | Avg Heart Rate (bpm) | Min Heart Rate (bpm) | Max Heart Rate (bpm) | Snoring (mins) | Physical Recovery (%) | Rest Rate (%) | Mental Recovery (%) | Number of Sleep Cycles | Total Sleep Score |
+|------------|------------|-----------|-------------------------|-----------------|-------------------|------------------|------------------|------------|---------------------|---------------------|-----------------------|-----------------------|-----------------------|----------------|------------------------|--------------|----------------------|-------------------------|-------------------|
+| 2024-01-01 | 23:00      | 07:00     | 8.0                     | 90              | 250               | 60               | 20               | 95         | 35.0                | 33.0                | 60                    | 50                    | 70                    | 0              | 85                     | 80           | 90                   | 5                       | 88                |
+| 2024-01-02 | 23:30      | 06:30     | 7.0                     | 85              | 260               | 50               | 25               | 93         | 34.5                | 32.5                | 65                    | 55                    | 75                    | 5              | 80                     | 75           | 85                   | 4                       | 82                |
+| 2024-01-03 | 22:30      | 06:00     | 7.5                     | 100             | 230               | 70               | 15               | 96         | 36.0                | 34.0                | 62                    | 52                    | 72                    | 2              | 88                     | 85           | 92                   | 6                       | 90                |
+
 
 ---
 
