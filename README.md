@@ -91,21 +91,7 @@ Collected via Galaxy Watch:
 
 4. **Visualization**:
    - Create dashboards to illustrate findings and patterns clearly.
-
----
-
-## Current Status
-The following steps are planned:
-1. **Data Collection**:
-   - Daily logging of nutritional intake, exercise, caffeine consumption, and sleep metrics.
-   - Syncing Galaxy Watch data for detailed sleep analysis (e.g., REM, deep sleep, heart rate).
-2. **Exploratory Data Analysis**:
-   - Initial analysis to identify potential correlations and trends.
-3. **Implementation of Machine Learning**:
-   - Develop models to predict sleep quality and identify key factors affecting it.
-
-This README will be updated regularly as the project progresses.
-
+  
 ---
 
 ## Tools and Libraries
@@ -114,6 +100,8 @@ The following tools and libraries will be utilized throughout the project as the
 - **Jupyter Notebook**: For data exploration and analysis
 - **GitHub**: For version control and project collaboration
 - **Spreadsheet Software**: Excel or Google Sheets for data collection
+
+This README will be updated regularly as the project progresses.
 
 ---
 
