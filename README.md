@@ -95,7 +95,7 @@ Collected via Galaxy Watch:
 ---
 
 ## Current Status
-As of now, data collection and coding have not started. The following steps are planned:
+The following steps are planned:
 1. **Data Collection**:
    - Daily logging of nutritional intake, exercise, caffeine consumption, and sleep metrics.
    - Syncing Galaxy Watch data for detailed sleep analysis (e.g., REM, deep sleep, heart rate).
