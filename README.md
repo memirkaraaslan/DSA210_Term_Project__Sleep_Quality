@@ -1,4 +1,4 @@
-# DSA210_Term_Project_32650
+# DSA210_Term_Project__Sleep_Quality
 The Relation Between My Daily Activities, Health Information, and My Sleep Quality
 
 # Daily Activities and Sleep Quality Analysis
