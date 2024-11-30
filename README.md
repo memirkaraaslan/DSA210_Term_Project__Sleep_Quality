@@ -71,7 +71,7 @@ The insights derived from this project will include:
 
 ---
 
-## Repository Structure
+## Repository Structure in Progress
 ```plaintext
 |-- data/
 |   |-- daily_logs.csv         # Collected data (processed)
