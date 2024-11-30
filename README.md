@@ -84,12 +84,8 @@ Collected via Galaxy Watch:
 2. **Feature Engineering**:
    - Derive new features, such as total caloric intake or caffeine-to-sleep ratios.
    - Normalize and preprocess the data for modeling.
-
-3. **Modeling**:
-   - Use regression models to predict sleep quality based on daily activity metrics.
-   - Perform clustering to group days with similar sleep patterns.
-
-4. **Visualization**:
+  
+3. **Visualization**:
    - Create dashboards to illustrate findings and patterns clearly.
   
 ---
