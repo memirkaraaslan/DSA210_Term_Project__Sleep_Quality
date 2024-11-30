@@ -1,5 +1,5 @@
 # DSA210_Term_Project_32650
-The Relation Between My Daily Activities and My Sleep Quality
+The Relation Between My Daily Activities, Health Information, and My Sleep Quality
 
 # Daily Activities and Sleep Quality Analysis
 
@@ -18,19 +18,30 @@ Data is collected daily from a combination of manual tracking and Galaxy Watch m
 
 ### **Daily Activity Parameters**
 - **Nutritional Intake**: Carbohydrates, proteins, and fats (in grams).
+    - The nutritional intake is measured using the app "FatSecret" to calculate the correspondent calories of foods.
 - **Caffeine Consumption**: Total intake (in milligrams).
+    - The caffeine content of beverages is recorded based on information from the product packaging or reliable online databases, such as the USDA FoodData Central or other trusted nutrition websites.
 - **Hydration**: Water consumption (in liters).
-- **Exercise**: Duration (in minutes) and type (e.g., cardio, strength).
+- **Exercise**: Presence (yes / no) and duration (in minutes) and type (e.g., cardio, strength).
 - **Meal Timings**: Breakfast, lunch, and dinner times.
 - **Screen Time**:
     - Total phone screen usage (in hours).
     - Total time spent with computer games (in hours).
 - **Mood**: Self-rated dominant mood (e.g., Happy, Tired, Stressed).
-- **Stress Level**: Average stress level (scale of 1-10).
+- **Stress Level**: Average stress level (scale of 1-10), measured using Galaxy Watch.
 - **Steps**: Total steps taken during the day.
 - **Mental Motivation**: Self-assessed motivation level (scale of 1-10).
 - **Work/Study Time**: Time spent on work, education, or study activities (in hours).
+- **Social Time**: Time spent socializing, including activities such as meeting with friends, participating in extracurricular activities (e.g., student clubs), and spending quality time with family.
 - **Sleep and Wake Times**: Daily sleep and wake-up times.
+- Some extra parameters for better insight:
+      - Weather conditions: Daily weather condition data collected from "The Weather Channel" and manuel tracking
+          - Temperature: Measured in degrees Celsius (°C).
+          - Humidity: Recorded as a percentage (%).
+          - Weather Conditions: Described as sunny, rainy, cloudy, etc.
+      - Body composition information: The information collected daily regarding body composition and ratios between;
+          - Mass (kg) information for: Body (measured with a scale) , Skeletal muscle, Fat, Body water
+          - Body analysis: Body fat percentage, BMI (Body Mass Index) calculated using mass informations
 
 ### **Sleep Quality Parameters**
 Collected via Galaxy Watch:
@@ -46,7 +57,8 @@ Collected via Galaxy Watch:
 - **Heart Rate**:
   - Average, minimum, and maximum heart rates during sleep
 - **Snoring Data**:
-  - Presence (yes/no) and duration (if applicable)
+  - Presence (yes/no) and duration (if applicable).
+  - Detected by the "Samsung Health" application installed on my smartphone.
 - **Sleep Durations**:
   - Total sleep time (hours)
 - **Device-Indicated Scores**:
