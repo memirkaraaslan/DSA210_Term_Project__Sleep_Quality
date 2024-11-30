@@ -66,6 +66,7 @@ Collected via Galaxy Watch:
   - Rest Rate
   - Mental Recovery Rate
   - Number of Sleep Cycles
+  - Total Sleep Score assessed by "Samsung Health"
 
 **Planned Tools for Data Logging**:
 - Manual input into a spreadsheet application (e.g., Excel or Google Sheets).
@@ -134,11 +135,11 @@ The following tools and libraries will be utilized throughout the project as the
 
 
 ### Sample Data: Sleep Quality Parameters
-| Date       | Sleep Time | Wake Time | Total Sleep Time (hrs) | REM Sleep (min) | Light Sleep (min) | Deep Sleep (min) | Awake Time (min) | Min O2 (%) | Max Skin Temp (°C) | Min Skin Temp (°C) | Avg Heart Rate (bpm) | Min Heart Rate (bpm) | Max Heart Rate (bpm) | Snoring (mins) | Physical Recovery (%) | Rest Rate (%) | Mental Recovery (%) | Number of Sleep Cycles |
-|------------|------------|-----------|-------------------------|-----------------|-------------------|------------------|------------------|------------|---------------------|---------------------|-----------------------|-----------------------|-----------------------|----------------|------------------------|--------------|----------------------|-------------------------|
-| 2024-01-01 | 23:00      | 07:00     | 8.0                     | 90              | 250               | 60               | 20               | 95         | 35.0                | 33.0                | 60                    | 50                    | 70                    | 0              | 85                     | 80           | 90                   | 5                       |
-| 2024-01-02 | 23:30      | 06:30     | 7.0                     | 85              | 260               | 50               | 25               | 93         | 34.5                | 32.5                | 65                    | 55                    | 75                    | 5              | 80                     | 75           | 85                   | 4                       |
-| 2024-01-03 | 22:30      | 06:00     | 7.5                     | 100             | 230               | 70               | 15               | 96         | 36.0                | 34.0                | 62                    | 52                    | 72                    | 2              | 88                     | 85           | 92                   | 6                       |
+| Date       | Sleep Time | Wake Time | Total Sleep Time (hrs) | REM Sleep (min) | Light Sleep (min) | Deep Sleep (min) | Awake Time (min) | Min O2 (%) | Max Skin Temp (°C) | Min Skin Temp (°C) | Avg Heart Rate (bpm) | Min Heart Rate (bpm) | Max Heart Rate (bpm) | Snoring (mins) | Physical Recovery (%) | Rest Rate (%) | Mental Recovery (%) | Number of Sleep Cycles | Total Sleep Score |
+|------------|------------|-----------|-------------------------|-----------------|-------------------|------------------|------------------|------------|---------------------|---------------------|-----------------------|-----------------------|-----------------------|----------------|------------------------|--------------|----------------------|-------------------------|-------------------|
+| 2024-01-01 | 23:00      | 07:00     | 8.0                     | 90              | 250               | 60               | 20               | 95         | 35.0                | 33.0                | 60                    | 50                    | 70                    | 0              | 85                     | 80           | 90                   | 5                       | 88                |
+| 2024-01-02 | 23:30      | 06:30     | 7.0                     | 85              | 260               | 50               | 25               | 93         | 34.5                | 32.5                | 65                    | 55                    | 75                    | 5              | 80                     | 75           | 85                   | 4                       | 82                |
+| 2024-01-03 | 22:30      | 06:00     | 7.5                     | 100             | 230               | 70               | 15               | 96         | 36.0                | 34.0                | 62                    | 52                    | 72                    | 2              | 88                     | 85           | 92                   | 6                       | 90                |
 
 
 ---
