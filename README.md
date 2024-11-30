@@ -17,12 +17,14 @@ Sleep is a critical component of physical and mental health. Understanding how m
 Data is collected daily from a combination of manual tracking and Galaxy Watch measurements. Key parameters include:
 
 ### **Daily Activity Parameters**
-- **Nutritional Intake**: Carbohydrates, proteins, and fats (in grams).
+- **Nutritional Intake**: Total calories intake, carbohydrates, proteins, and fats (in grams).
     - The nutritional intake is measured using the app "FatSecret" to calculate the correspondent calories of foods.
 - **Caffeine Consumption**: Total intake (in milligrams).
     - The caffeine content of beverages is recorded based on information from the product packaging or reliable online databases, such as the USDA FoodData Central or other trusted nutrition websites.
 - **Hydration**: Water consumption (in liters).
-- **Exercise**: Presence (yes / no) and duration (in minutes) and type (e.g., cardio, strength).
+- **Exercise**:
+    - Presence (yes / no) and duration (in minutes)
+    - Type i.e. exercise intensity (e.g., cardio, strength).
 - **Meal Timings**: Breakfast, lunch, and dinner times.
 - **Screen Time**:
     - Total phone screen usage (in hours).
@@ -61,6 +63,7 @@ Collected via Galaxy Watch:
   - Detected by the "Samsung Health" application installed on my smartphone.
 - **Sleep Durations**:
   - Total sleep time (hours)
+  - Sleep efficiency: Duration of actual sleep compared to total bed time
 - **Device-Indicated Scores**:
   - Physical Recovery Rate
   - Rest Rate
@@ -103,28 +106,30 @@ This README will be updated regularly as the project progresses.
 ---
 
 ## Sample Data
-
 ### Sample Data: Daily Activity
-| Date       | Carbs (g) | Protein (g) | Fat (g) | Caffeine (mg) | Hydration (L) | Breakfast Time | Lunch Time | Dinner Time | Screen Time (hrs) | Gaming Time (hrs) | Mood       | Stress Level (1-10) | Steps  | Mental Motivation (1-10) | Work/Study Time (hrs) | Social Time (hrs) | Sleep Time | Wake Time |
-|------------|-----------|-------------|---------|---------------|---------------|----------------|------------|-------------|-------------------|--------------------|------------|---------------------|--------|---------------------------|-----------------------|-------------------|-----------|-----------|
-| 2024-01-01 | 200       | 80          | 60      | 150           | 2.0           | 08:00          | 13:00      | 19:00       | 4.0               | 1.5                | Happy      | 3                   | 8000   | 9                         | 5.0                   | 2.0               | 23:00     | 07:00     |
-| 2024-01-02 | 180       | 90          | 50      | 120           | 1.8           | 08:15          | 13:15      | 19:30       | 5.0               | 2.0                | Stressed   | 5                   | 10000  | 7                         | 4.5                   | 1.5               | 23:30     | 06:30     |
-| 2024-01-03 | 250       | 100         | 70      | 200           | 2.5           | 07:45          | 12:45      | 18:45       | 3.0               | 1.0                | Relaxed    | 2                   | 12000  | 10                        | 6.0                   | 2.5               | 22:30     | 06:00     |
+| Date       | Total Calories | Carbs (g) | Protein (g) | Fat (g) | Caffeine (mg) | Hydration (L) | Breakfast Time | Lunch Time | Dinner Time | Screen Time (hrs) | Gaming Time (hrs) | Mood       | Stress Level (1-10) | Steps  | Mental Motivation (1-10) | Work/Study Time (hrs) | Social Time (hrs) | Sleep Time | Wake Time |
+|------------|----------------|-----------|-------------|---------|---------------|---------------|----------------|------------|-------------|-------------------|--------------------|------------|---------------------|--------|---------------------------|-----------------------|-------------------|-----------|-----------|
+| 2024-01-01 | 2000           | 200       | 80          | 60      | 150           | 2.0           | 08:00          | 13:00      | 19:00       | 4.0               | 1.5                | Happy      | 3                   | 8000   | 9                         | 5.0                   | 2.0               | 23:00     | 07:00     |
+| 2024-01-02 | 1800           | 180       | 90          | 50      | 120           | 1.8           | 08:15          | 13:15      | 19:30       | 5.0               | 2.0                | Stressed   | 5                   | 10000  | 7                         | 4.5                   | 1.5               | 23:30     | 06:30     |
+| 2024-01-03 | 2500           | 250       | 100         | 70      | 200           | 2.5           | 07:45          | 12:45      | 18:45       | 3.0               | 1.0                | Relaxed    | 2                   | 12000  | 10                        | 6.0                   | 2.5               | 22:30     | 06:00     |
+
+---
 
 ### Sample Data: Additional Parameters
 | Date       | Air Temperature (°C) | Humidity (%) | Weather Condition | Body Weight (kg) | Skeletal Muscle (kg) | Body Fat (%) | Body Water (%) | BMI  |
-|------------|------------------|--------------|-------------------|------------------|----------------------|--------------|----------------|------|
-| 2024-01-01 | 25.0             | 60           | Sunny             | 70.0             | 30.0                 | 18.0         | 55.0           | 24.5 |
-| 2024-01-02 | 22.0             | 55           | Cloudy            | 69.5             | 29.8                 | 17.5         | 54.5           | 24.3 |
-| 2024-01-03 | 20.0             | 65           | Rainy             | 71.0             | 31.0                 | 19.0         | 56.0           | 25.1 |
+|------------|-----------------------|--------------|-------------------|------------------|----------------------|--------------|----------------|------|
+| 2024-01-01 | 25.0                  | 60           | Sunny             | 70.0             | 30.0                 | 18.0         | 55.0           | 24.5 |
+| 2024-01-02 | 22.0                  | 55           | Cloudy            | 69.5             | 29.8                 | 17.5         | 54.5           | 24.3 |
+| 2024-01-03 | 20.0                  | 65           | Rainy             | 71.0             | 31.0                 | 19.0         | 56.0           | 25.1 |
 
+---
 
 ### Sample Data: Sleep Quality Parameters
-| Date       | Sleep Time | Wake Time | Total Sleep Time (hrs) | REM Sleep (min) | Light Sleep (min) | Deep Sleep (min) | Awake Time (min) | Min O2 (%) | Max Skin Temp (°C) | Min Skin Temp (°C) | Avg Heart Rate (bpm) | Min Heart Rate (bpm) | Max Heart Rate (bpm) | Snoring (mins) | Physical Recovery (%) | Rest Rate (%) | Mental Recovery (%) | Number of Sleep Cycles | Total Sleep Score |
-|------------|------------|-----------|-------------------------|-----------------|-------------------|------------------|------------------|------------|---------------------|---------------------|-----------------------|-----------------------|-----------------------|----------------|------------------------|--------------|----------------------|-------------------------|-------------------|
-| 2024-01-01 | 23:00      | 07:00     | 8.0                     | 90              | 250               | 60               | 20               | 95         | 35.0                | 33.0                | 60                    | 50                    | 70                    | 0              | 85                     | 80           | 90                   | 5                       | 88                |
-| 2024-01-02 | 23:30      | 06:30     | 7.0                     | 85              | 260               | 50               | 25               | 93         | 34.5                | 32.5                | 65                    | 55                    | 75                    | 5              | 80                     | 75           | 85                   | 4                       | 82                |
-| 2024-01-03 | 22:30      | 06:00     | 7.5                     | 100             | 230               | 70               | 15               | 96         | 36.0                | 34.0                | 62                    | 52                    | 72                    | 2              | 88                     | 85           | 92                   | 6                       | 90                |
+| Date       | Sleep Time | Wake Time | Total Sleep Time (hrs) | REM Sleep (min) | Light Sleep (min) | Deep Sleep (min) | Awake Time (min) | Min O2 (%) | Max Skin Temp (°C) | Min Skin Temp (°C) | Avg Heart Rate (bpm) | Min Heart Rate (bpm) | Max Heart Rate (bpm) | Snoring (mins) | Physical Recovery (%) | Rest Rate (%) | Mental Recovery (%) | Number of Sleep Cycles | Total Sleep Score | Sleep Efficiency (%) |
+|------------|------------|-----------|-------------------------|-----------------|-------------------|------------------|------------------|------------|---------------------|---------------------|-----------------------|-----------------------|-----------------------|----------------|------------------------|--------------|----------------------|-------------------------|-------------------|-----------------------|
+| 2024-01-01 | 23:00      | 07:00     | 8.0                     | 90              | 250               | 60               | 20               | 95         | 35.0                | 33.0                | 60                    | 50                    | 70                    | 0              | 85                     | 80           | 90                   | 5                       | 88                | 90                    |
+| 2024-01-02 | 23:30      | 06:30     | 7.0                     | 85              | 260               | 50               | 25               | 93         | 34.5                | 32.5                | 65                    | 55                    | 75                    | 5              | 80                     | 75           | 85                   | 4                       | 82                | 85                    |
+| 2024-01-03 | 22:30      | 06:00     | 7.5                     | 100             | 230               | 70               | 15               | 96         | 36.0                | 34.0                | 62                    | 52                    | 72                    | 2              | 88                     | 85           | 92                   | 6                       | 90                | 87                    |
 
 
 ---
