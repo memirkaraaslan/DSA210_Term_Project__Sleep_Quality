@@ -1,79 +1,110 @@
 # DSA210_Term_Project_32650
-The relation between my daily activities and my sleep quality
+The Relation Between My Daily Activities and My Sleep Quality
 
 # Daily Activities and Sleep Quality Analysis
 
 ## Overview
-This project investigates the relationship between my daily activities and sleep quality. By collecting data on nutrition, exercise, hydration, screen time, mood, and sleep patterns using a combination of manual logs and wearable device data (Galaxy Watch), I aim to uncover insights about factors that influence my sleep.
+This project explores the relationship between my daily activities and my sleep quality. By analyzing factors such as dietary intake, caffeine consumption, exercise routines, and meal timings, I aim to uncover patterns and insights to improve my sleep quality and overall well-being.
 
 ---
 
 ## Motivation
-Sleep quality is a cornerstone of overall health and well-being. By analyzing the impact of daily activities such as diet, exercise, and mental motivation, I hope to identify habits that improve or hinder my sleep. This project also provides an opportunity to apply data science techniques to personal health data, offering actionable insights for a healthier lifestyle.
+Sleep is a critical component of physical and mental health. Understanding how my daily choices—such as nutrition, caffeine intake, and exercise—affect my sleep quality can help me make informed decisions for a healthier lifestyle. This project also provides a hands-on opportunity to apply data science techniques to real-life data.
 
 ---
 
 ## Data Collection
-Data is collected daily from a combination of manual tracking and Galaxy Watch measurements. Key parameters include:
-
-### **Daily Activity Parameters**
+The data used in this project will be collected daily and includes:
 - **Nutritional Intake**: Carbohydrates, proteins, and fats (in grams).
 - **Caffeine Consumption**: Total intake (in milligrams).
-- **Hydration**: Water consumption (in liters).
-- **Exercise**: Duration (in minutes) and type (e.g., cardio, strength).
+- **Exercise**: Duration (in minutes) and type (if applicable).
 - **Meal Timings**: Breakfast, lunch, and dinner times.
-- **Screen Time**: Total phone screen usage (in hours).
-- **Mood**: Self-rated dominant mood (e.g., Happy, Tired, Stressed).
-- **Stress Level**: Average stress level (scale of 1-10).
-- **Steps**: Total steps taken during the day.
-- **Mental Motivation**: Self-assessed motivation level (scale of 1-10).
-- **Work/Study Time**: Time spent on work, education, or study activities (in hours).
-- **Sleep and Wake Times**: Daily sleep and wake-up times.
+- **Sleep Data**: Duration (in hours) and quality (rated on a scale of 1-5).
 
-### **Sleep Quality Parameters**
-Collected via Galaxy Watch:
-- **Sleep Stages**:
-  - Wake time (minutes)
-  - REM sleep (minutes)
-  - Light sleep (minutes)
-  - Deep sleep (minutes)
-- **Oxygen Levels**:
-  - Minimum blood oxygen percentage during sleep
-- **Temperature**:
-  - Highest and lowest skin temperature during sleep
-- **Heart Rate**:
-  - Average, minimum, and maximum heart rates during sleep
-- **Snoring Data**:
-  - Presence (yes/no) and duration (if applicable)
-- **Sleep Durations**:
-  - Total sleep time (hours)
-- **Device-Indicated Scores**:
-  - Physical Recovery Rate
-  - Rest Rate
-  - Mental Recovery Rate
-  - Sleep Cycle Efficiency
+**Planned Tools for Data Logging**:
+- Manual input into a spreadsheet application (e.g., Excel or Google Sheets).
+- Galaxy Watch for biometric and sleep quality measurements.
+
+**Note**: Data collection will begin shortly and is planned for a duration of 2 weeks.
 
 ---
 
 ## Analysis Plan
 1. **Exploratory Data Analysis (EDA)**:
-   - Analyze correlations between daily activities and sleep quality metrics.
-   - Identify trends using scatter plots, bar charts, and heatmaps.
+   - Identify trends in sleep quality with respect to different variables.
+   - Visualize the data using scatter plots, bar charts, and heatmaps.
+
 2. **Feature Engineering**:
-   - Combine and normalize collected data for deeper insights (e.g., calorie-to-exercise ratio, caffeine impact on REM sleep).
-3. **Machine Learning**:
-   - Use regression models to predict sleep quality.
-   - Apply clustering to categorize days with similar activity and sleep patterns.
+   - Derive new features, such as total caloric intake or caffeine-to-sleep ratios.
+   - Normalize and preprocess the data for modeling.
+
+3. **Modeling**:
+   - Use regression models to predict sleep quality based on daily activity metrics.
+   - Perform clustering to group days with similar sleep patterns.
+
 4. **Visualization**:
-   - Create dashboards to visualize relationships between variables and their impact on sleep.
+   - Create dashboards to illustrate findings and patterns clearly.
+
+---
+
+## Current Status
+As of now, data collection and coding have not started. The following steps are planned:
+1. **Data Collection**:
+   - Daily logging of nutritional intake, exercise, caffeine consumption, and sleep metrics.
+   - Syncing Galaxy Watch data for detailed sleep analysis (e.g., REM, deep sleep, heart rate).
+2. **Exploratory Data Analysis**:
+   - Initial analysis to identify potential correlations and trends.
+3. **Implementation of Machine Learning**:
+   - Develop models to predict sleep quality and identify key factors affecting it.
+
+This README will be updated regularly as the project progresses.
 
 ---
 
 ## Tools and Libraries
 - **Python**: pandas, numpy, matplotlib, seaborn, scikit-learn
-- **Wearable Device**: Galaxy Watch (for sleep quality and biometric data)
-- **Jupyter Notebook**: For data analysis and visualization
-- **GitHub**: For project tracking and collaboration
+- **Jupyter Notebook**: For data exploration and analysis
+- **GitHub**: For version control and project collaboration
+- **Spreadsheet Software**: Excel or Google Sheets for data collection
+
+---
+
+## Findings
+The insights derived from this project are expected to include:
+- The impact of dietary habits (e.g., high-carb vs. high-protein meals) on specific sleep stages such as REM or deep sleep.
+- The effect of caffeine consumption on sleep duration, quality, and recovery rates (physical, mental, and restfulness scores).
+- The relationship between hydration levels and biometric sleep parameters such as heart rate, blood oxygen levels, and skin temperature.
+- Correlations between exercise routines (e.g., intensity, duration) and sleep improvement, particularly in physical recovery metrics.
+- How external factors like screen time, stress levels, and mood influence sleep stages and overall restfulness.
+- Patterns observed in sleep cycles (e.g., how consistent wake-up and bedtimes contribute to better sleep quality).
+- Insights into the role of environmental factors such as weather conditions on sleep efficiency.
+- An overall understanding of what combinations of daily activities (e.g., exercise, meal timings, and mental motivation) promote the best sleep outcomes.
+
+---
+
+## Limitations and Future Work
+### Limitations:
+- **Self-Reported Data**: Daily activity logs (e.g., nutrition, screen time, stress) are manually recorded and may contain biases or inaccuracies.
+- **Device Accuracy**: While Galaxy Watch provides detailed sleep and biometric data, its measurements are limited by the precision and reliability of the device.
+- **Individual Scope**: The analysis is limited to my personal lifestyle and may not generalize to a wider population.
+- **Short Observation Period**: The dataset may not cover a sufficient time period to identify long-term patterns and trends.
+
+### Possible Improvements:
+- **Enhanced Data Collection**:
+  - Develop or use an automated logging system that integrates wearable device data with external APIs (e.g., weather or stress tracking apps).
+  - Incorporate additional metrics such as daily caloric intake or detailed exercise intensity levels using fitness trackers.
+- **Longer Study Period**: Extend the data collection over several months or even a year to observe seasonal and long-term trends.
+- **Comparative Analysis**: Compare my data with anonymized datasets from other individuals to identify broader patterns and validate findings.
+- **Advanced Modeling Techniques**:
+  - Utilize time-series analysis to predict sleep quality based on historical data.
+  - Apply clustering techniques to categorize "high-quality sleep days" vs. "low-quality sleep days" and analyze contributing factors.
+- **Visualization and Dashboards**:
+  - Create an interactive dashboard to visualize relationships between variables and allow for scenario testing (e.g., "How does skipping caffeine impact sleep quality?").
+- **Environmental Data**:
+  - Integrate weather API data (temperature, humidity, air quality) to explore correlations with sleep metrics like deep sleep duration or physical recovery.
+- **Public Sharing**:
+  - Share findings through a user-friendly web application or generalizable sleep-quality improvement framework.
+  - Publish a report or blog post summarizing the key insights and actionable recommendations for others.
 
 ---
 
@@ -86,4 +117,3 @@ Collected via Galaxy Watch:
 |   |-- modeling.ipynb         # Modeling and Predictions
 |-- README.md                  # Project overview and details
 |-- requirements.txt           # Python dependencies
-
