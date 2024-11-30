@@ -14,18 +14,50 @@ Sleep is a critical component of physical and mental health. Understanding how m
 ---
 
 ## Data Collection
-The data used in this project will be collected daily and includes:
+Data is collected daily from a combination of manual tracking and Galaxy Watch measurements. Key parameters include:
+
+### **Daily Activity Parameters**
 - **Nutritional Intake**: Carbohydrates, proteins, and fats (in grams).
 - **Caffeine Consumption**: Total intake (in milligrams).
-- **Exercise**: Duration (in minutes) and type (if applicable).
+- **Hydration**: Water consumption (in liters).
+- **Exercise**: Duration (in minutes) and type (e.g., cardio, strength).
 - **Meal Timings**: Breakfast, lunch, and dinner times.
-- **Sleep Data**: Duration (in hours) and quality (rated on a scale of 1-5).
+- **Screen Time**: Total phone screen usage (in hours).
+- **Mood**: Self-rated dominant mood (e.g., Happy, Tired, Stressed).
+- **Stress Level**: Average stress level (scale of 1-10).
+- **Steps**: Total steps taken during the day.
+- **Mental Motivation**: Self-assessed motivation level (scale of 1-10).
+- **Work/Study Time**: Time spent on work, education, or study activities (in hours).
+- **Sleep and Wake Times**: Daily sleep and wake-up times.
+
+### **Sleep Quality Parameters**
+Collected via Galaxy Watch:
+- **Sleep Stages**:
+  - Wake time (minutes)
+  - REM sleep (minutes)
+  - Light sleep (minutes)
+  - Deep sleep (minutes)
+- **Oxygen Levels**:
+  - Minimum blood oxygen percentage during sleep
+- **Temperature**:
+  - Highest and lowest skin temperature during sleep
+- **Heart Rate**:
+  - Average, minimum, and maximum heart rates during sleep
+- **Snoring Data**:
+  - Presence (yes/no) and duration (if applicable)
+- **Sleep Durations**:
+  - Total sleep time (hours)
+- **Device-Indicated Scores**:
+  - Physical Recovery Rate
+  - Rest Rate
+  - Mental Recovery Rate
+  - Sleep Cycle Efficiency
 
 **Planned Tools for Data Logging**:
 - Manual input into a spreadsheet application (e.g., Excel or Google Sheets).
 - Galaxy Watch for biometric and sleep quality measurements.
 
-**Note**: Data collection will begin shortly and is planned for a duration of 2 weeks.
+**Note**: Data collection will begin shortly and is planned for a duration of 2-3 weeks.
 
 ---
 
