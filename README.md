@@ -9,7 +9,7 @@ This project explores the relationship between my daily activities and my sleep 
 ---
 
 ## Motivation
-Sleep is a critical component of physical and mental health. Understanding how my daily choices—such as nutrition, caffeine intake, and exercise—affect my sleep quality can help me make informed decisions for a healthier lifestyle. This project also provides a hands-on opportunity to apply data science techniques to real-life data.
+Sleep is a critical component of physical and mental health. Understanding how my daily choices—such as nutrition, caffeine intake, and exercise—affect my sleep quality can help me make informed decisions for a healthier lifestyle. This project provides a hands-on opportunity to apply data science techniques to real-life data and serves as a foundation for future data science applications and real-world health analytics.
 
 ---
 
@@ -71,6 +71,7 @@ Collected via Galaxy Watch:
 **Planned Tools for Data Logging**:
 - Manual input into a spreadsheet application (e.g., Excel or Google Sheets).
 - Galaxy Watch for biometric and sleep quality measurements.
+- Potential Future Integration with APIs or Apps.
 
 **Note**: Data collection will begin shortly and is planned for a duration of 2-3 weeks.
 
@@ -173,6 +174,6 @@ The insights derived from this project are expected to include:
 |   |-- daily_logs.csv         # Collected data (processed)
 |-- notebooks/
 |   |-- eda.ipynb              # Exploratory Data Analysis
-|   |-- modeling.ipynb         # Modeling and Predictions
+|   |-- analysis.ipynb         # Data Analysis and Visualization
 |-- README.md                  # Project overview and details
 |-- requirements.txt           # Python dependencies
