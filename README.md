@@ -22,7 +22,9 @@ Data is collected daily from a combination of manual tracking and Galaxy Watch m
 - **Hydration**: Water consumption (in liters).
 - **Exercise**: Duration (in minutes) and type (e.g., cardio, strength).
 - **Meal Timings**: Breakfast, lunch, and dinner times.
-- **Screen Time**: Total phone screen usage (in hours).
+- **Screen Time**:
+    - Total phone screen usage (in hours).
+    - Total time spent with computer games (in hours).
 - **Mood**: Self-rated dominant mood (e.g., Happy, Tired, Stressed).
 - **Stress Level**: Average stress level (scale of 1-10).
 - **Steps**: Total steps taken during the day.
