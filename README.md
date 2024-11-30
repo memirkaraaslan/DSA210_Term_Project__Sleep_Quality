@@ -92,7 +92,7 @@ Collected via Galaxy Watch:
 
 ## Tools and Libraries
 The following tools and libraries will be utilized throughout the project as the coding and analysis phase progresses:
-- **Python**: pandas, numpy, matplotlib, seaborn, scikit-learn
+- **Python**: pandas, numpy, matplotlib, seaborn
 - **Jupyter Notebook**: For data exploration and analysis
 - **GitHub**: For version control and project collaboration
 - **Spreadsheet Software**: Excel or Google Sheets for data collection
