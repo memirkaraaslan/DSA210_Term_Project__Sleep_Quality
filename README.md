@@ -65,7 +65,7 @@ Collected via Galaxy Watch:
   - Physical Recovery Rate
   - Rest Rate
   - Mental Recovery Rate
-  - Sleep Cycle Efficiency
+  - Number of Sleep Cycles
 
 **Planned Tools for Data Logging**:
 - Manual input into a spreadsheet application (e.g., Excel or Google Sheets).
