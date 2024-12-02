@@ -49,8 +49,8 @@ Data is collected daily from a combination of manual tracking and Galaxy Watch m
 Collected via Galaxy Watch:
 - **Sleep Stages**:
   - Awake time (minutes)
-  - REM sleep (minutes)
   - Light sleep (minutes)
+  - REM sleep (minutes)
   - Deep sleep (minutes)
 - **Oxygen Levels**:
   - Minimum blood oxygen percentage during sleep
