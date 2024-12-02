@@ -42,8 +42,8 @@ Data is collected daily from a combination of manual tracking and Galaxy Watch m
         - Humidity: Recorded as a percentage (%).
         - Weather Conditions: Described as sunny, rainy, cloudy, etc.
     - Body composition information: The information collected daily regarding body composition and ratios between;
-          - Mass (kg) information for: Body (measured with a scale) , Skeletal muscle, Fat, Body water
-          - Body analysis: Body fat percentage, BMI (Body Mass Index) calculated using mass informations
+        - Mass (kg) information for: Body (measured with a scale) , Skeletal muscle, Fat, Body water
+        - Body analysis: Body fat percentage, BMI (Body Mass Index) calculated using mass informations
 
 ### **Sleep Quality Parameters**
 Collected via Galaxy Watch:
