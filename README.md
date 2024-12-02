@@ -48,7 +48,7 @@ Data is collected daily from a combination of manual tracking and Galaxy Watch m
 ### **Sleep Quality Parameters**
 Collected via Galaxy Watch:
 - **Sleep Stages**:
-  - Wake time (minutes)
+  - Awake time (minutes)
   - REM sleep (minutes)
   - Light sleep (minutes)
   - Deep sleep (minutes)
