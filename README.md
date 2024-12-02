@@ -54,7 +54,7 @@ Collected via Galaxy Watch:
   - Deep sleep (minutes)
 - **Oxygen Levels**:
   - Minimum blood oxygen percentage during sleep
-- **Temperature**:
+- **Skin Temperature**:
   - Highest and lowest skin temperature during sleep
 - **Heart Rate**:
   - Average, minimum, and maximum heart rates during sleep
